@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TBP AI Assistant</title>
+
+<meta name="theme-color" content="#0f172a">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-robot"></i>
+
+<div>
+
+<h2>TBP AI</h2>
+
+<p>Powered by Gemini</p>
+
+</div>
+
+</div>
+
+<div class="header-buttons">
+
+<button id="newChat">
+
+<i class="fa-solid fa-plus"></i>
+
+</button>
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</div>
+
+</header>
+
+<main id="chatBox">
+
+<div class="bot-message">
+
+<h3>👋 স্বাগতম!</h3>
+
+<p>
+আমি <b>TBP AI Assistant</b>।
+</p>
+
+<p>
+তুমি বাংলা, English অথবা Hinglish-এ প্রশ্ন করতে পারো।
+</p>
+
+</div>
+
+</main>
+
+<div id="typing" class="typing">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<footer>
+
+<textarea
+id="prompt"
+placeholder="আপনার প্রশ্ন লিখুন..."
+rows="1"></textarea>
+
+<button id="send">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
