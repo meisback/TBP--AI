@@ -10,7 +10,7 @@ const sendBtn = document.getElementById("send");
 const typing = document.getElementById("typing");
 const newChat = document.getElementById("newChat");
 
-const BACKEND_URL = "https://YOUR-RENDER-BACKEND.onrender.com/chat";
+const BACKEND_URL = "https://tbp-ai.onrender.com/chat";
 
 let chats = [];
 
